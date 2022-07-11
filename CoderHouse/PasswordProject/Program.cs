@@ -15,6 +15,7 @@
                 if (passwordReceived.Equals(passwordSetUp))
                 {
                     Console.WriteLine("Bienvenido al Sistema");
+                    break;
                 }
                 else
                 {

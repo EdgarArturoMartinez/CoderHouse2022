@@ -6,7 +6,15 @@ namespace CoderHouse
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Persona persona = new Persona();
+            persona.Name = "Test";
+            Console.WriteLine($"Hello ");
         }
     }
+
+    class Persona
+    {
+        public string Name { get; set; }
+    }
+
 }
